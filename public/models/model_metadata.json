@@ -1,0 +1,51 @@
+{
+  "model_name": "SANTFRIX SecondEar Neural Classifier",
+  "version": "1.0.0",
+  "classes": [
+    "Normal",
+    "Wheeze",
+    "Crackle",
+    "Stridor",
+    "Murmur"
+  ],
+  "sample_rate": 16000,
+  "n_mels": 128,
+  "test_accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      50,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      50,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      50,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      50,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      50
+    ]
+  ]
+}

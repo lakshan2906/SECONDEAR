@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-main: #030712;
+    --cyan-glow: #00f5d4;
+    --sky-glow: #38bdf8;
+  }
+
+  body {
+    background-color: #030712;
+    color: #f8fafc;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Outfit', sans-serif;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Ambient Cyber-Medical Mesh Gradient Background */
+.cyber-bg {
+  background: 
+    radial-gradient(circle at 10% 10%, rgba(0, 245, 212, 0.08) 0%, transparent 45%),
+    radial-gradient(circle at 90% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 50% 85%, rgba(168, 85, 247, 0.06) 0%, transparent 55%),
+    linear-gradient(180deg, #040817 0%, #02040a 100%);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme Overrides */
+html.light body, body.light {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+
+html.light .cyber-bg, body.light .cyber-bg, .light .cyber-bg {
+  background: 
+    radial-gradient(circle at 10% 10%, rgba(14, 165, 233, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 90% 15%, rgba(6, 182, 212, 0.12) 0%, transparent 50%),
+    radial-gradient(circle at 50% 85%, rgba(99, 102, 241, 0.08) 0%, transparent 55%),
+    linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%);
+  color: #0f172a;
+}
+
+html.light .glass-card, body.light .glass-card, .light .glass-card {
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid rgba(203, 213, 225, 0.85);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  color: #0f172a;
+}
+
+html.light .glass-card-accent, body.light .glass-card-accent, .light .glass-card-accent {
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid rgba(14, 165, 233, 0.45);
+  box-shadow: 0 12px 32px rgba(14, 165, 233, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  color: #0f172a;
+}
+
+html.light .bg-navy-950, body.light .bg-navy-950, .light .bg-navy-950 {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+
+html.light .bg-navy-950\/90, body.light .bg-navy-950\/90, .light .bg-navy-950\/90,
+html.light .bg-navy-950\/80, body.light .bg-navy-950\/80, .light .bg-navy-950\/80,
+html.light .bg-navy-950\/60, body.light .bg-navy-950\/60, .light .bg-navy-950\/60 {
+  background-color: rgba(248, 250, 252, 0.95) !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+
+html.light .bg-navy-900, body.light .bg-navy-900, .light .bg-navy-900 {
+  background-color: #ffffff !important;
+  border-color: #cbd5e1 !important;
+  color: #0f172a !important;
+}
+
+html.light .text-white, body.light .text-white, .light .text-white {
+  color: #0f172a !important;
+}
+
+html.light .text-slate-100, body.light .text-slate-100, .light .text-slate-100 {
+  color: #1e293b !important;
+}
+
+html.light .text-slate-200, body.light .text-slate-200, .light .text-slate-200 {
+  color: #334155 !important;
+}
+
+html.light .text-slate-300, body.light .text-slate-300, .light .text-slate-300 {
+  color: #475569 !important;
+}
+
+html.light .text-slate-400, body.light .text-slate-400, .light .text-slate-400 {
+  color: #64748b !important;
+}
+
+html.light .bg-slate-800, body.light .bg-slate-800, .light .bg-slate-800,
+html.light .bg-slate-800\/90, body.light .bg-slate-800\/90, .light .bg-slate-800\/90 {
+  background-color: #e2e8f0 !important;
+  color: #0f172a !important;
+}
+
+html.light .border-slate-800, body.light .border-slate-800, .light .border-slate-800,
+html.light .border-slate-800\/80, body.light .border-slate-800\/80, .light .border-slate-800\/80,
+html.light .border-slate-800\/90, body.light .border-slate-800\/90, .light .border-slate-800\/90 {
+  border-color: #cbd5e1 !important;
+}
+
+html.light .border-slate-700, body.light .border-slate-700, .light .border-slate-700,
+html.light .border-slate-700\/80, body.light .border-slate-700\/80, .light .border-slate-700\/80 {
+  border-color: #cbd5e1 !important;
+}
+
+html.light input, html.light textarea, html.light select,
+body.light input, body.light textarea, body.light select {
+  background-color: #ffffff !important;
+  color: #0f172a !important;
+  border-color: #cbd5e1 !important;
+}
+
+html.light input::placeholder, html.light textarea::placeholder,
+body.light input::placeholder, body.light textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+html.light .mobile-viewport, body.light .mobile-viewport, .light .mobile-viewport {
+  background-color: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+  box-shadow: 0 25px 60px -12px rgba(0, 0, 0, 0.15), 0 0 0 8px #cbd5e1, 0 0 35px rgba(14, 165, 233, 0.15);
+  color: #0f172a !important;
+}
+
+html.light .mobile-viewport nav, body.light .mobile-viewport nav {
+  background-color: rgba(255, 255, 255, 0.96) !important;
+  border-color: #cbd5e1 !important;
+}
+
+/* Ultra Glassmorphism */
+.glass-card {
+  background: rgba(10, 18, 38, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(56, 189, 248, 0.16);
+  box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: all 0.3s ease;
+}
+
+.glass-card-accent {
+  background: rgba(12, 24, 52, 0.85);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(0, 245, 212, 0.35);
+  box-shadow: 0 0 30px rgba(0, 245, 212, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  transition: all 0.3s ease;
+}
+
+.glass-pill {
+  background: rgba(15, 28, 60, 0.65);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+}
+
+/* Mobile Frame Container */
+.mobile-viewport {
+  width: 100%;
+  max-width: 440px;
+  height: calc(100vh - 2rem);
+  max-height: 880px;
+  border-radius: 36px;
+  box-shadow: 0 25px 60px -12px rgba(0, 0, 0, 0.85), 0 0 0 8px #1e293b, 0 0 35px rgba(0, 245, 212, 0.15);
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 640px) {
+  .mobile-viewport {
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0px;
+    box-shadow: none;
+    border: none;
+  }
+}
+
+/* Glowing Neon Elements */
+.shadow-glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 245, 212, 0.35);
+}
+
+.shadow-glow-urgent {
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.45);
+}
+
+.glow-cyan {
+  box-shadow: 0 0 25px rgba(0, 245, 212, 0.4);
+}
+
+.glow-sky {
+  box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+}
+
+.glow-red {
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.45);
+}
+
+.glow-amber {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.4);
+}
+
+/* Custom Medical Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(4, 8, 23, 0.9);
+}
+html.light ::-webkit-scrollbar-track, body.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.25);
+  border-radius: 9999px;
+}
+html.light ::-webkit-scrollbar-thumb, body.light ::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 245, 212, 0.6);
+}
+
+/* Smooth Fade and Slide Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s ease-in-out infinite;
+}
+
+@keyframes radarSweep {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-radar {
+  animation: radarSweep 4s linear infinite;
+}
