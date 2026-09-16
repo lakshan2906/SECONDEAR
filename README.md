@@ -12,7 +12,8 @@
 
 Over **70% of rural Primary Health Centres (PHCs)** in developing nations lack resident pediatricians and cardiologists, leaving auscultation to frontline nurses and ASHA workers. Manual acoustic auscultation suffers from **>40% inter-observer disagreement**, especially in noisy ambient clinic environments. Consequently, treatable conditions like pediatric pneumonia cause over **740,000 preventable deaths annually** (WHO).
 
-Commercial digital smart stethoscopes (e.g., Eko CORE, 3M Littmann) cost **₹25,000–₹40,000+** and require active high-speed cloud internet that routinely fails in remote rural health centers.
+A Commercial digital smart stethoscopes (e.g., Eko CORE, 3M Littmann) cost **₹25,000–₹40,000+** and require active high-speed cloud internet that routinely fails in remote rural health centers. Moreover , a normal stethoscope can capture these sounds, but interpreting them accurately often depends on experience and expertise. This can lead to delayed screening and referral, especially when early signs of respiratory or cardiopulmonary abnormalities are difficult to recognize.
+
 
 **SecondEar™ transforms standard $100 smartphones and low-cost 3D-printed acoustic couplers into an intelligent, 100% offline cardiopulmonary screening tool.**
 
