@@ -1,10 +1,10 @@
-# SANTFRIX SecondEar™ 🫁🩺
+# SecondEar™ 🫁🩺
 ### AI-Assisted Acoustic Biomarker Screening for Cardiopulmonary Health
 **VMEDITHON 3.0 — Bio × Engineering Track | Sri Sairam Engineering College**
 
 > [!CAUTION]
 > **CLINICAL PROTOTYPE DISCLAIMER**  
-> *SANTFRIX SecondEar™ is an experimental prototype Clinical Decision Support System (CDSS) developed for demonstration and research screening purposes during VMEDITHON 3.0. It is **NOT** a certified medical diagnostic device under CDSCO, FDA, or CE MDR guidelines. All acoustic biomarker screening outputs must be validated with clinical diagnostic tests (e.g. Chest X-Ray, Spirometry, Echocardiography) by registered medical practitioners.*
+> *SecondEar™ is an experimental prototype Clinical Decision Support System (CDSS) developed for demonstration and research screening purposes during VMEDITHON 3.0. It is **NOT** a certified medical diagnostic device under CDSCO, FDA, or CE MDR guidelines. All acoustic biomarker screening outputs must be validated with clinical diagnostic tests (e.g. Chest X-Ray, Spirometry, Echocardiography) by registered medical practitioners.*
 
 ---
 
@@ -94,11 +94,10 @@ Open `http://localhost:5173` in your browser.
 
 ---
 
-## 👥 6. Team SANTFRIX (Sri Sairam Engineering College)
+## 👥 6. Team (Sri Sairam Engineering College)
 - **LAKSHAN M (Lead):** AI/ML & Audio Signal Processing Architecture
 - **NAVEEN M J:** Embedded Hardware & Sensor Interfacing
 - **MYTHILI R:** Full-Stack & Edge Mobile App Developer
-- **DINESH D:** Edge Model Optimization & Deployment
 - **RAGHAVI R:** Clinical Research & UI/UX Design
 
 *VMEDITHON 3.0 • VIT Chennai • September 15–16, 2026*
